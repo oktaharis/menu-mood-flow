@@ -29,14 +29,18 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "project1" },
+      { name: "description", content: "CafeFlow POS is a modern, integrated point-of-sale application for restaurants and cafes." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "project1" },
+      { property: "og:description", content: "CafeFlow POS is a modern, integrated point-of-sale application for restaurants and cafes." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "project1" },
+      { name: "twitter:description", content: "CafeFlow POS is a modern, integrated point-of-sale application for restaurants and cafes." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/9e76727c-8e6c-45b4-a558-ccc59b1b7f7c/id-preview-ad809303--2e303df4-6b4f-4c3e-8a9b-9504447e48bf.lovable.app-1777994937095.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/9e76727c-8e6c-45b4-a558-ccc59b1b7f7c/id-preview-ad809303--2e303df4-6b4f-4c3e-8a9b-9504447e48bf.lovable.app-1777994937095.png" },
     ],
     links: [
       {
